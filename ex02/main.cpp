@@ -14,7 +14,7 @@ int main(void)
     ScavTrap scav("Scavvy");
     scav.attack("Enemy");
     scav.guardGate();
-    scav.takeDamage(20); //mirar asi aqui esta bien que claptrap scav tome el daño
+    scav.takeDamage(20);
     scav.beRepaired(15);
 
     std::cout << std::endl << "=== Testing FragTrap construction chaining ===" << std::endl;
