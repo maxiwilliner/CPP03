@@ -15,11 +15,11 @@ int main(void)
     botA.beRepaired(3);
 
     std::cout << std::endl << "=== Testing copy constructor ===" << std::endl;
-    ClapTrap botB(botA);  //revisar como bota se trasnforma en botB
+    ClapTrap botB(botA); 
     botB.attack("Another Enemy");
 
     std::cout << std::endl << "=== Testing copy assignment ===" << std::endl;
-    ClapTrap botC("Bot-C"); //lo mismo 
+    ClapTrap botC("Bot-C"); 
     botC = botA;
     botC.attack("Final Enemy");
 
